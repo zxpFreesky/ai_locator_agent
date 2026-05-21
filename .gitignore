@@ -1,0 +1,44 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Debug & Test Artifacts
+locator_debug.txt
+use_mcp_log.txt
+debug_screenshot_*.png
+step*.png
+test_output.txt
+
+# Legacy & Internal
+precision_locator_legacy.py
+replace_print.py
+precision_locator_blog.md
+use_mcp.py
+
+# Local dependencies (vendor directory)
+dependencies/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Template images (binary assets, add as needed)
+# templates/*.png
